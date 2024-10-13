@@ -7,7 +7,7 @@
 -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>反奥万同盟万岁</title>
+    <title>flex布局</title>
     <style>
         body{
             margin: 0;
@@ -38,6 +38,11 @@
         .y{
             box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px,rgb(0 0 0 / 12%) 0px 1px
         }
+        .a:hover{
+            color:#fff ;
+            background-color: #999;
+            font-size: 15px;
+        }
     </style>
 </head>
 <body class="flex">
@@ -46,14 +51,14 @@
         <div style="align-items: center; justify-content: center; padding: 2px; border-bottom: 2px solid #999;" class="baise mgr mgt">
             <!--头像-->
             <div>
-                <b><i>aaa72-afk的个人网站</i></b>
+                <b><i>张乘玮的个人网站</i></b>
             </div>
             <img src="https://gamepedia.cursecdn.com/minecraft_zh_gamepedia/b/b7/Conditional_Repeating_Command_Block.gif?version=d7157a298ba48897ef23a4001dee9643" alt="error" style="width: 125px; margin-top: 10px; margin-left: 10px;">
         </div>
         <div class="baise flex1 mgr mgt">
             <!--导航-->
-            <a href="https://aaa72-afk.github.io/Zcw6/gwhj.html">点击前往奥万合集</a><br>
-            <a href="https://aaa72-afk.github.io/Zcw6/mywz.html">点击进入网站（已完善）</a>
+            <a href="https://aaa72-afk.github.io/Zcw6/gwhj.html" style="display: block; width: 100%;height: 50px; background-color: #999;color: #fff;margin: 5px; line-height: 50px;text-decoration: none;border: 1px solid black;" class="a">点击前往奥万合集</a>
+            <a href="https://aaa72-afk.github.io/Zcw6/mywz.html" style="display: block; width: 100%;height: 50px;background-color: #999;color: #fff; line-height: 25px; text-decoration: none; border: 1px solid black;" class="a">点击进入网站（已完善）</a>
         </div>
     </div>
     <div class="flex column flex1">
